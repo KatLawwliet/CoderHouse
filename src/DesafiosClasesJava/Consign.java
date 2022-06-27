@@ -1,4 +1,6 @@
-public class Consign {   // Clase Consign
+package DesafiosClasesJava;
+
+public class Consign {   // Clase DesafiosClasesJava.Consign
     public String name(String reciboNombres, int reciboNumeros) {   // Primer metodo:recibe un String y un int
         return reciboNombres + ": es el nombre que recibi \n" + reciboNumeros + ": es el numero que recibi";
             // Retorna el String y el int

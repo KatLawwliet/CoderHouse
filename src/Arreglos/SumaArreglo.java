@@ -1,5 +1,6 @@
+package Arreglos;
 
-    public class SumaArreglo {
+public class SumaArreglo {
         public static void main(String[] args)
         {
             int [] arreglo = { 87, 68, 94, 100, 83, 78, 85, 91, 76, 87 };

@@ -1,3 +1,5 @@
+package Arreglos;
+
 public class InicArreglo {
     public static void main(String[] args) {
         final int LONGITUD_ARREGLO = 10;    //Declara la constante LONGITUD_ARREGLO y la inicializa con 10

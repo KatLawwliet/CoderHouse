@@ -1,9 +1,13 @@
+package Pruebas;
+
+import Pruebas.Prueba1;
+
 public class ClaseQueTieneMain {    // Clase que tiene main
 
     public static void main(String[] args) {    // Metodo main
-        Prueba1 pruebita = new Prueba1();       // Instancia de la clase Prueba1
+        Prueba1 pruebita = new Prueba1();       // Instancia de la clase Pruebas.Prueba1
 
-        Prueba1 pruebota = new Prueba1();    // Instancia de la clase Prueba1
+        Prueba1 pruebota = new Prueba1();    // Instancia de la clase Pruebas.Prueba1
 
         System.out.println(pruebita.nombre("Hola"));    // Imprime "Hola es lo que recibi"
         System.out.println(pruebita.nombre("Holssa"));    // Imprime "Hola es lo que recibi"

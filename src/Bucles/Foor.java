@@ -1,3 +1,5 @@
+package Bucles;
+
 public class Foor {     // Clase principal
     public static void main(String[] args) {        // Metodo principal
         for (int i = 1; i < 10; i++) {  //Se ejecuta el bloque de instrucciones 10 veces

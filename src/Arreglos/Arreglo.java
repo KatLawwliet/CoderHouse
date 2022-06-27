@@ -1,3 +1,5 @@
+package Arreglos;
+
 public class Arreglo {
     public static void main(String[] args) {
             // Declara la variable arreglo y la inicializa con un objeto arreglo

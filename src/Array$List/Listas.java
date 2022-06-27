@@ -1,8 +1,10 @@
+package Array$List;
+
 import java.util.ArrayList;  //Libreria para crear listas
 import java.util.Iterator;   //Libreria para iterar sobre listas
 import java.util.List;      //Libreria para crear listas
 
-public class Clase3 {
+public class Listas {
     public static void main(String[] args) {
         List<String> listaColores = new ArrayList<>();  //Crea una lista de tipo String
         listaColores.add("Celeste");    //Agrega un elemento a la lista

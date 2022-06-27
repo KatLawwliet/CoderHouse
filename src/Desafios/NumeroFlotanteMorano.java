@@ -1,6 +1,8 @@
+package Desafios;
+
 import java.util.Scanner;   //Libreria para leer datos  desde el teclado
 
-    public class NumeroFlotanteMorano {     // Clase principal  NumeroFlotanteMorano
+    public class NumeroFlotanteMorano {     // Clase principal  Desafios.NumeroFlotanteMorano
         public static void main(String[] args) {    // Metodo principal main
             Scanner entrada = new Scanner(System.in);   //Crea un objeto Scanner    para leer datos desde el teclado
             System.out.println("Ingrese un numero flotante: "); //Pide al usuario que ingrese un numero flotante
@@ -19,7 +21,7 @@ import java.util.Scanner;   //Libreria para leer datos  desde el teclado
             //Imprime la parte entera del numero flotante ingresado por el usuario  y lo guarda en la variable parteEntera
             System.out.printf("La parte entera del numero flotante es: %d%n" , parteEntera);
             //Imprime la parte decimal del numero flotante ingresado por el usuario y lo guarda en la variable parteDecimal
-            System.out.printf("La parte decimal del numero flotante es: %.3f" , parteDecimal);
+            System.out.printf("La parte decimal del numero flotante es: %.2f" , parteDecimal);
 
 
         }

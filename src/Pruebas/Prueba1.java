@@ -1,3 +1,5 @@
+package Pruebas;
+
 public class Prueba1 {  // Clase que tiene main
     String nombre(String recibido){ // Metodo que recibe un String
         return recibido + " es lo que recibi";  // Retorna el String recibido + " es lo que recibi"
@@ -11,4 +13,4 @@ public class Prueba1 {  // Clase que tiene main
 
     }
 
-}   // Fin de la clase Prueba1
+}   // Fin de la clase Pruebas.Prueba1
